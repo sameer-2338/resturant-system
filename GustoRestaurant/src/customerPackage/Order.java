@@ -5,14 +5,13 @@
  */
 package customerPackage;
 
-import gustorestaurant.MyConnection;
+import foodierestaurant.MyConnection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.time.Instant;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.logging.Level;

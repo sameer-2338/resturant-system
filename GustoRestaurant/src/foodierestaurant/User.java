@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package gustorestaurant;
+package foodierestaurant;
 
 import java.math.BigInteger;
 import java.security.MessageDigest;
@@ -16,9 +16,9 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 import managerPackage.Announcement;
-import menuItems.Inventory;
+
 import static menuItems.Inventory.inventoryList;
-import menuItems.MainMenu;
+
 import menuItems.MenuItem;
 import starting.HomepageForm;
 

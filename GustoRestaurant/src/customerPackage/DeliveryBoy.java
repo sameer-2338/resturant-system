@@ -9,7 +9,7 @@ package customerPackage;
  *
  * @author PC
  */
-import gustorestaurant.MyConnection;
+import foodierestaurant.MyConnection;
 import java.awt.Menu;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

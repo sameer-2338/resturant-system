@@ -5,7 +5,7 @@
  */
 package customerPackage;
 
-import gustorestaurant.MyConnection;
+import foodierestaurant.MyConnection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;

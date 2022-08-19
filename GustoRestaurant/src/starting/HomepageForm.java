@@ -8,7 +8,7 @@ package starting;
 
 
 import menuItems.Menu;
-import gustorestaurant.User;
+import foodierestaurant.User;
 import java.util.ArrayList;
 import managerPackage.Announcement;
 import menuItems.Inventory;

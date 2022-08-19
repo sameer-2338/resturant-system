@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package gustorestaurant;
+package foodierestaurant;
 
 import java.util.ArrayList;
 import menuItems.Inventory;
@@ -15,7 +15,7 @@ import static starting.HomepageForm.offers;
  *
  * @author PC
  */
-public class GustoRestaurant
+public class FoodieRestaurant
 {
 
     /**
