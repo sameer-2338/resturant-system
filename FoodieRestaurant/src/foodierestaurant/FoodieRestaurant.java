@@ -11,10 +11,7 @@ import menuItems.MainMenu;
 import starting.HomepageForm;
 import static starting.HomepageForm.offers;
 
-/**
- *
- * @author PC
- */
+
 public class FoodieRestaurant
 {
 
