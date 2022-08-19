@@ -65,7 +65,7 @@ public class HomepageForm extends javax.swing.JFrame
         lblHomeImage = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Gusto Restaurant");
+        setTitle("Foodie Restaurant");
         setBackground(new java.awt.Color(0, 51, 51));
         setIconImages(null);
         setLocation(new java.awt.Point(100, 100));
@@ -74,19 +74,19 @@ public class HomepageForm extends javax.swing.JFrame
         setPreferredSize(new java.awt.Dimension(1217, 871));
         getContentPane().setLayout(null);
 
-        pHeader.setBackground(new java.awt.Color(255, 213, 0));
-        pHeader.setMinimumSize(new java.awt.Dimension(1220, 80));
+        pHeader.setBackground(new java.awt.Color(255, 255, 255));
+//        pHeader.setMinimumSize(new java.awt.Dimension(1820, 0));
         pHeader.setName("pHeader"); // NOI18N
-        pHeader.setPreferredSize(new java.awt.Dimension(1220, 80));
+//        pHeader.setPreferredSize(new java.awt.Dimension(1820, 0));
         pHeader.setLayout(null);
 
         lbLogo.setBackground(new java.awt.Color(255, 255, 255));
         lbLogo.setFont(new java.awt.Font("Rockwell Condensed", 0, 52)); // NOI18N
         lbLogo.setForeground(new java.awt.Color(127, 72, 101));
-        lbLogo.setText("GUSTO");
+        lbLogo.setText("FOODIE");
         lbLogo.setToolTipText("");
         pHeader.add(lbLogo);
-        lbLogo.setBounds(29, 13, 120, 62);
+        lbLogo.setBounds(29, 13, 140, 62);
 
         btnLogin.setBackground(new java.awt.Color(255, 213, 0));
         btnLogin.setFont(new java.awt.Font("Rockwell", 0, 30)); // NOI18N
@@ -124,7 +124,7 @@ public class HomepageForm extends javax.swing.JFrame
         pHeader.add(btnSignup);
         btnSignup.setBounds(1070, 20, 121, 50);
 
-        btnMenuHomePage.setBackground(new java.awt.Color(255, 213, 0));
+        btnMenuHomePage.setBackground(new java.awt.Color(12, 230, 65));
         btnMenuHomePage.setFont(new java.awt.Font("Rockwell", 0, 30)); // NOI18N
         btnMenuHomePage.setForeground(new java.awt.Color(127, 72, 101));
         btnMenuHomePage.setText("MENU");
@@ -132,7 +132,7 @@ public class HomepageForm extends javax.swing.JFrame
         btnMenuHomePage.setBorderPainted(false);
         btnMenuHomePage.setContentAreaFilled(false);
         btnMenuHomePage.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnMenuHomePage.setPreferredSize(new java.awt.Dimension(87, 29));
+        btnMenuHomePage.setPreferredSize(new java.awt.Dimension(300, 29));
         btnMenuHomePage.setRequestFocusEnabled(false);
         btnMenuHomePage.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -143,24 +143,24 @@ public class HomepageForm extends javax.swing.JFrame
         btnMenuHomePage.setBounds(720, 20, 140, 50);
 
         getContentPane().add(pHeader);
-        pHeader.setBounds(0, 0, 1220, 80);
+        pHeader.setBounds(0, 0, 1990, 80);
 
         jLayeredPane1.setMinimumSize(new java.awt.Dimension(1062, 627));
         jLayeredPane1.setPreferredSize(new java.awt.Dimension(1261, 788));
 
         lblText.setFont(new java.awt.Font("Rockwell Condensed", 1, 50)); // NOI18N
-        lblText.setForeground(new java.awt.Color(255, 255, 255));
+        lblText.setForeground(new java.awt.Color(0, 0, 0));
         lblText.setText("Discover & Order");
         lblText.setName(""); // NOI18N
         jLayeredPane1.add(lblText);
-        lblText.setBounds(780, 310, 470, 170);
+        lblText.setBounds(78, 310, 470, 230);
 
         getContentPane().add(jLayeredPane1);
-        jLayeredPane1.setBounds(0, 80, 1220, 780);
+        jLayeredPane1.setBounds(0, 80, 2220, 780);
 
         lblHomeImage.setIcon(new javax.swing.ImageIcon(getClass().getResource("/starting/r22.jpg"))); // NOI18N
         getContentPane().add(lblHomeImage);
-        lblHomeImage.setBounds(0, 50, 1220, 910);
+        lblHomeImage.setBounds(0, 0, 2020, 1010);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

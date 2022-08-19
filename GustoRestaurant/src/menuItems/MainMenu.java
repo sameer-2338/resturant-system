@@ -22,7 +22,7 @@ public class MainMenu
 {
 //Setting Restaurant Name
 
-    private final String restaurantName = "GUSTO";
+    private final String restaurantName = "FOODIE";
     private Category category;
     
 

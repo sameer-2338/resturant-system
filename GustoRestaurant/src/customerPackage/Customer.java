@@ -283,7 +283,11 @@ public class Customer extends User
                     //boolean status = /*Boolean.valueOf(*/ostatus/*)*/;
                     
                     DateFormat dateFormat = new SimpleDateFormat("h:mm aa");
-                    //Date orderStartTime = dateFormat.parse(rs.getString("order_StartTime"));
+                    try {
+                        Date orderStartTime = dateFormat.parse(rs.getString("order_StartTime"));
+                    } catch (ParseException e) {
+                        e.printStackTrace();
+                    }
                     //Date deliveryTime = dateFormat.parse(rs.getString("order_deliveryTime"));
                     long startinMillis = rs.getLong("order_StartMillis");
                     long deliveryinMillis = rs.getLong("order_DeliveryMillis");
@@ -302,7 +306,7 @@ public class Customer extends User
                         }
                     }
                     o = new Order(oid, cid, cname, caddress, cmobile);
-                    //o.setOrderStartTime(orderStartTime);
+//                    o.setOrderStartTime(orderStartTime);
                     o.setComplainMessage(ocomplain);
                     //o.setDeliveryTime(deliveryTime);
                     o.setStartTimeInMillis(startinMillis);

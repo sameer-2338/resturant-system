@@ -423,12 +423,12 @@ public class OrderForm extends javax.swing.JFrame
         pnl_background.add(lbl_order_background);
         lbl_order_background.setBounds(0, 70, 1217, 720);
 
-        pHeader.setBackground(new java.awt.Color(255, 213, 0));
+        pHeader.setBackground(new java.awt.Color(255, 255, 255));
         pHeader.setName("pHeader"); // NOI18N
         pHeader.setPreferredSize(new java.awt.Dimension(1062, 70));
         pHeader.setLayout(null);
 
-        btnLogout.setBackground(new java.awt.Color(255, 213, 0));
+        btnLogout.setBackground(new java.awt.Color(255, 255, 255));
         btnLogout.setFont(new java.awt.Font("Rockwell", 0, 24)); // NOI18N
         btnLogout.setForeground(new java.awt.Color(127, 72, 101));
         btnLogout.setText("Log out");
@@ -449,7 +449,7 @@ public class OrderForm extends javax.swing.JFrame
         lbLogo.setBackground(new java.awt.Color(255, 255, 255));
         lbLogo.setFont(new java.awt.Font("Rockwell Condensed", 0, 52)); // NOI18N
         lbLogo.setForeground(new java.awt.Color(127, 72, 101));
-        lbLogo.setText("GUSTO");
+        lbLogo.setText("FOODIE");
         lbLogo.setToolTipText("");
         pHeader.add(lbLogo);
         lbLogo.setBounds(30, 10, 120, 62);
@@ -617,13 +617,13 @@ public class OrderForm extends javax.swing.JFrame
                 //Start time in milli seconds converted to date Format
                 Date orderStart = new Date(orderStartMillis);
 
-                //currentOrder.setOrderStartTime(orderStart);
+                currentOrder.setOrderStartTime(orderStart);
                 currentOrder.setCanelTimeInMillis(orderStartMillis + (0 * ONE_MINUTE_IN_MILLIS));
                 long dTimeMillis=orderStartMillis + (ONE_MINUTE_IN_MILLIS * 1);
                 Date estimatedDeliveryTime = new Date(dTimeMillis);
 
                 currentOrder.setDeliveryTimeInMillis(dTimeMillis);
-                //currentOrder.setDeliveryTime(estimatedDeliveryTime);
+//                currentOrder.setDeliveryTime(estimatedDeliveryTime);
 
                 customer.placeOrders(currentOrder);
                 deliveryBoy.setOrder(currentOrder);

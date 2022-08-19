@@ -67,7 +67,7 @@ public class BillForm extends javax.swing.JFrame
         DateFormat dateFormat = new SimpleDateFormat("dd MMM yyyy, hh:mm aa");
         Date currentDate = new Date();
 
-        txtArea_bill.setText("\n                  ******GUSTO******             \n\n");
+        txtArea_bill.setText("\n                  ******FOODIE******             \n\n");
         txtArea_bill.append("Date: " + dateFormat.format(currentDate) + "\n\n");
 
         txtArea_bill.append("PRICE     QTY        TOTAL\n");
@@ -133,7 +133,7 @@ public class BillForm extends javax.swing.JFrame
             }
         }
 
-        txtArea_bill.append("\n            Thank you for visiting Gusto\n");
+        txtArea_bill.append("\n            Thank you for visiting FOODIE\n");
         txtArea_bill.append("\n*******************************************\n");
     }
 

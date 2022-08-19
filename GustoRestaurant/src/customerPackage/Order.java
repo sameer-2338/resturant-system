@@ -39,7 +39,7 @@ public class Order
     DateFormat dateFormat = new SimpleDateFormat("h:mm aa");
     private boolean voucherFound = false;
     boolean assigned = false;
-    //private Date orderStartTime;
+    private Date orderStartTime;
     private long CanelTimeInMillis = (60000 * 0);
     private long startTimeInMillis = (60000 * 0);
     private long deliveryTimeInMillis = (60000 * 0);
@@ -102,10 +102,10 @@ public class Order
 //        this.deliveryTime = deliveryTime;
 //    }
 //
-//    public void setOrderStartTime(Date orderStartTime)
-//    {
-//        this.orderStartTime = orderStartTime;
-//    }
+    public void setOrderStartTime(Date orderStartTime)
+    {
+        this.orderStartTime = orderStartTime;
+    }
 
     public void setId(String Id)
     {

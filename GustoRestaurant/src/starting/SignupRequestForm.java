@@ -91,12 +91,12 @@ public class SignupRequestForm extends javax.swing.JFrame
 
         jSeparator2.setForeground(new java.awt.Color(0, 0, 0));
 
-        jPanel2.setBackground(new java.awt.Color(255, 213, 0));
+        jPanel2.setBackground(new java.awt.Color(255, 255, 255));
 
         lbLogo.setBackground(new java.awt.Color(255, 255, 255));
         lbLogo.setFont(new java.awt.Font("Rockwell Condensed", 0, 55)); // NOI18N
         lbLogo.setForeground(new java.awt.Color(127, 72, 101));
-        lbLogo.setText("GUSTO");
+        lbLogo.setText("FOODIE");
         lbLogo.setToolTipText("");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);

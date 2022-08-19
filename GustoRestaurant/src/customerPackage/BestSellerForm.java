@@ -105,7 +105,7 @@ public class BestSellerForm extends javax.swing.JFrame
         getContentPane().add(jLabel1);
         jLabel1.setBounds(0, 50, 1220, 850);
 
-        pHeader.setBackground(new java.awt.Color(255, 213, 0));
+        pHeader.setBackground(new java.awt.Color(255, 255, 255));
         pHeader.setName("pHeader"); // NOI18N
         pHeader.setPreferredSize(new java.awt.Dimension(1062, 70));
         pHeader.setLayout(null);
@@ -131,7 +131,7 @@ public class BestSellerForm extends javax.swing.JFrame
         lbLogo.setBackground(new java.awt.Color(255, 255, 255));
         lbLogo.setFont(new java.awt.Font("Rockwell Condensed", 0, 52)); // NOI18N
         lbLogo.setForeground(new java.awt.Color(127, 72, 101));
-        lbLogo.setText("GUSTO");
+        lbLogo.setText("FOODIE");
         lbLogo.setToolTipText("");
         pHeader.add(lbLogo);
         lbLogo.setBounds(30, 10, 120, 62);

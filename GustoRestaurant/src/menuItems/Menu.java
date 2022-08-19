@@ -233,11 +233,11 @@ public class Menu extends javax.swing.JFrame
         setPreferredSize(new java.awt.Dimension(1217, 788));
         setSize(new java.awt.Dimension(1217, 788));
 
-        pnl_LogoBar.setBackground(new java.awt.Color(255, 213, 0));
+        pnl_LogoBar.setBackground(new java.awt.Color(255, 255, 255));
 
         lbl_RsturantName.setFont(new java.awt.Font("Rockwell Condensed", 0, 48)); // NOI18N
         lbl_RsturantName.setForeground(new java.awt.Color(102, 0, 102));
-        lbl_RsturantName.setText("GUSTO");
+        lbl_RsturantName.setText("FOODIE");
 
         javax.swing.GroupLayout pnl_LogoBarLayout = new javax.swing.GroupLayout(pnl_LogoBar);
         pnl_LogoBar.setLayout(pnl_LogoBarLayout);

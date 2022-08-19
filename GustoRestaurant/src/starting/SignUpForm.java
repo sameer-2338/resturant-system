@@ -131,13 +131,13 @@ public class SignUpForm extends javax.swing.JFrame
             }
         });
 
-        jPanel1.setBackground(new java.awt.Color(255, 213, 0));
+        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setPreferredSize(new java.awt.Dimension(144, 70));
 
         lbLogo1.setBackground(new java.awt.Color(255, 255, 255));
         lbLogo1.setFont(new java.awt.Font("Rockwell Condensed", 0, 48)); // NOI18N
         lbLogo1.setForeground(new java.awt.Color(127, 72, 101));
-        lbLogo1.setText("GUSTO");
+        lbLogo1.setText("FOODIE");
         lbLogo1.setToolTipText("");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
