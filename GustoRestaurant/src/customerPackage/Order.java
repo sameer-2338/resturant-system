@@ -37,7 +37,7 @@ public class Order
     protected HashMap<String, Double> ratings = new HashMap<>();
     DateFormat dateFormat = new SimpleDateFormat("h:mm aa");
     private boolean voucherFound = false;
-    boolean assigned = false;
+    boolean assigned = true;
     private Date orderStartTime;
     private long CanelTimeInMillis = (60000 * 0);
     private long startTimeInMillis = (60000 * 0);

@@ -1,10 +1,6 @@
 package customerPackage;
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 import customerPackage.OrderForm.*;
 import customerPackage.OrderForm;
 import java.text.DateFormat;
@@ -17,10 +13,6 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import menuItems.Inventory;
 
-/**
- *
- * @author Dell
- */
 public class BillForm extends javax.swing.JFrame
 {
 //Order order = new Order();
